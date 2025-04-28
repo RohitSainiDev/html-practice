@@ -1,0 +1,25 @@
+        html {
+            font-size: 22px;
+        }
+
+        body {
+            background-color: #333;
+            color: whitesmoke;
+        }
+
+        a:link {
+            color: aliceblue;
+        }
+
+        a:visited {
+            color: lightgray;
+        }
+
+        a:hover,
+        a:active {
+            color: #eee;
+        }
+
+        code {
+            font-size: 18px;
+        }
