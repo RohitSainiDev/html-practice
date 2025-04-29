@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Rohit Saini" />
+    <meta name="description" content="This page is used to experiment with HTML tags." />
+    <link rel="icon" href="./html5.png" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>My First Webpage</title>
+</head>
+
+<body>
+    <header>
+        <h1>My Goals For the Year</h1>
+        <nav aria-label="primary-navigation">
+            <ul>
+                <li>
+                    <a href="#html">Learning HTML</a>
+                </li>
+                <li>
+                    <a href="#vacation">Planning a Vacation</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main>
+        <article id="html">
+            <h2>I'm Ready to Learn HTML</h2>
+            <p>This is my first web page.</p>
+            <section>
+                <h3>HTML5</h3>
+                <img src="img/html5.svg" alt="HTML5 icon" title="HTML5 logo" width="200" />
+                <p>
+                    An Example of HTML5 code:
+                    <br>
+                    <code> &lt;h1&gt;Hello World!&lt;/h1&gt;</code>
+                </p>
+            </section>
+
+            <section>
+                <h3>My Daily Schedule</h3>
+                <p>Let me tell you how:</p>
+                <ol>
+                    <li>...I learn more about web dev.</li>
+                    <li>...I plan out my schedule.</li>
+                    <li>...I use resources from
+                        <abbr title="Mozilla Developer Network">
+                            <a href="https://developer.mozilla.org/">MDN</a>
+                        </abbr>.
+                    </li>
+                </ol>
+                <aside>
+                    <details>
+                        <summary>
+                            Guess the
+                            <mark>number of hours</mark>
+                            I code per day
+                        </summary>
+                        <p>
+                            I start at
+                            <time datetime="08:00">8 am</time>
+                            and I write code for
+                            <time datetime="PT3H">3 hours</time>
+                            every morning.
+                        </p>
+                    </details>
+                </aside>
+                <br>
+                <table>
+                    <caption>My Daily Scedule</caption>
+
+                    <thead>
+                        <tr>
+                            <th scope="col">&nbsp;</th>
+                            <th scope="col">Time</th>
+                            <th scope="col">Activity</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <th scope="row">Morning</th>
+                            <td>
+                                <time datetime="08:00">8am</time>
+                                -
+                                <time datetime="11:00">11am</time>
+                            <td>Write Code</td>
+                            </td>
+
+                        </tr>
+
+                        <tr>
+                            <th scope="row">Break</th>
+                            <td>
+                                <time datetime="11:00">11am</time>
+                                -
+                                <time datetime="12:00">12pm</time>
+                            <td>Eat Lunch</td>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <th scope="row">Afternoon</th>
+                            <td>
+                                <time datetime="12:00">12pm</time>
+                                -
+                                <time datetime="17:00">05pm</time>
+                            <td>Study Maths</td>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <th scope="row">Evening</th>
+                            <td rowspan="2">All Other Times</td>
+                            <td>Free Time</td>
+                        </tr>
+
+                        <tr>
+                            <th scope="row">Night</th>
+                            <td>Sleep</td>
+                        </tr>
+                    </tbody>
+
+                    <tfoot>
+                        <tr>
+                            <td colspan="3">And that's what I do everyday</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </section>
+        </article>
+
+        <hr>
+
+        <article id="vacation">
+            <h2>I Am Also Planning a Vacation</h2>
+            <p>
+                I've been working hard and
+                <em>really</em>
+                need a getaway.
+            </p>
+            <p>
+                I live in
+                <abbr title="New Delhi">N. Delhi</abbr>
+                so I want to visit a beach.
+            </p>
+
+            <section>
+                <h3>Places I'd Like to Visit</h3>
+                <ul>
+                    <li>
+                        <p>I've heard good things about Goa.</p>
+                        <figure>
+                            <img src="./img/goa.jpg" alt="Goa Beach" title="I want to visit this place" width="400" />
+                            <figcaption>A Goa Vacation Image</figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <p>I've heard good things about going here:</p>
+                        <address>
+                            Calangute, North Goa,<br>
+                            Goa 403516,<br>
+                            India.
+                        </address>
+                        <figure>
+                            <img src="./img/vacation.jpg" alt="Calangute Beach" title="Beautiful Calangute Beach"
+                                width="400" loading="lazy" />
+                            <figcaption>A Famous Beach at Goa</figcaption>
+                        </figure>
+                    </li>
+                </ul>
+            </section>
+
+            <!-- TODO: Add more places -->
+            <section>
+                <h3>Places I Want to Avoid</h3>
+                <dl>
+                    <dt>North Pole</dt>
+                    <dd>
+                        It's
+                        <strong>cold</strong>
+                        there.
+                    </dd>
+
+                    <dt>South Pole</dt>
+                    <dd>It's also cold.</dd>
+
+                    <dt>Mountsin tops</dt>
+                    <dd>These are also cold.</dd>
+                </dl>
+            </section>
+        </article>
+    </main>
+
+    <hr>
+
+    <footer>
+        <p>
+            &lt;&lt;&lt; &copy;
+            <a href="./about.html">Rohit Saini</a>
+            &gt;&gt;&gt;
+        </p>
+        <p>
+            <a href="#">Back to Top</a>
+        </p>
+    </footer>
+</body>
+
+</html>
